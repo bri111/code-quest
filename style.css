@@ -1,3 +1,8 @@
-body {
-    background-color: rgb(115, 202, 162);
+.body {
+  background-color: #123e66; /* Choose your desired color */
+}
+
+footer {
+  background-color: #123e66; /* Choose your desired color */
+  color: #e6d2d2; /* Optional: Choose a text color that contrasts well with the background */
 }
