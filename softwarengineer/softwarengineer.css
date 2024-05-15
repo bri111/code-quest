@@ -10,10 +10,16 @@ footer {
   color: #e6d2d2; /* Optional: Choose a text color that contrasts well with the background */
 }
 
+.top-text {
+  color: #f50000; /* Optional: Choose a text color that contrasts well with the background */
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 h2 {
   color: #f6f6f6; /* Optional: Choose a text color that contrasts well with the background */
   align-content: center;
-
 }
 
 p {
@@ -21,8 +27,6 @@ p {
   margin-bottom: auto; /* Push the paragraph to the center */
   align-content: center;
   color: #f1f1f1; /* Optional: Choose a text color that contrasts well with the background */
-  padding: 10px;
-
 }
 
 #root {
@@ -32,7 +36,6 @@ p {
   align-items: center; /* Center horizontally */
   height: 100vh;
   margin-top: 100px; /* Adjust the top margin to be the height of your navbar */
-
 }
 
 .box:hover {
@@ -72,6 +75,4 @@ p {
   color: white;
 }
 
-.inner-container {
-  display: flex;
-}
+
