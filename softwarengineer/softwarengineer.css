@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 footer {
   background-color: #123e66; /* Choose your desired color */
   color: #e6d2d2; /* Optional: Choose a text color that contrasts well with the background */
@@ -12,7 +13,6 @@ footer {
 h2 {
   color: #f6f6f6; /* Optional: Choose a text color that contrasts well with the background */
   align-content: center;
-  margin-top: 100px; /* Adjust the top margin to be the height of your navbar */
 
 }
 
@@ -26,11 +26,12 @@ p {
 }
 
 #root {
+  padding-top: 60px; /* Adjust this value to match the height of your navbar */
   display: flex;
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
   height: 100vh;
-  margin-top: 90px; /* Adjust the top margin to be the height of your navbar */
+  margin-top: 100px; /* Adjust the top margin to be the height of your navbar */
 
 }
 
