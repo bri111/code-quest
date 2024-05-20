@@ -30,7 +30,7 @@ const DecisionPoints = () => {
             </div>
           </div>
         ); // home page
-// tech giants
+// university research
       case 1: // tech giants
         return (
           <div>
@@ -158,7 +158,7 @@ const DecisionPoints = () => {
             </div>
           </div>
         );
-      case 1.12: // tech giants
+      case 1.112: //research
         return (
           <div>
             <h2 align="center">Transfer Learning Triumph</h2>
@@ -166,25 +166,192 @@ const DecisionPoints = () => {
               You've decided to utilize transfer learning to improve the efficiency of your NLP model. By leveraging pre-trained models and fine-tuning them on your specific task, you significantly reduce the amount of annotated data needed. Your research yields impressive results, and your work is recognized in the academic community.
             </p>
             <p align="center" className="fs-5">
-              With your success in NLP research, new opportunities arise. You're presented with two options for your next research direction:
+              Chapter 6: With your success in NLP research, new opportunities arise. You're presented with two options for your next research direction:
             </p>
-            <div className="inner-container">
+              <div className="inner-container">
               <div className="box" onClick={() => handleDecision(1.1121)}>
                 <p><strong>Multimodal AI -</strong>
                   Explore the intersection of language, vision, and other modalities to develop AI systems with a more comprehensive understanding of the world.
                 </p>
               </div>
               <div className="box" onClick={() => handleDecision(1.1122)}>
-                <p><strong>Ethical AI
-                  -</strong>
+                <p><strong>Ethical AI -</strong>
                   Research ways to ensure AI systems are developed and used ethically, considering factors like bias, privacy, and transparency.
                 </p>
               </div>
             </div>
           </div>
         );
+        case 1.1121: //research
+        return (
+          <div>
+            <h2 align="center">Multimodal Frontier</h2>
+            <p align="center" className="fs-5">
+              You've chosen to explore Multimodal AI, diving into the complexities of integrating language, vision, and other modalities. Your research leads to groundbreaking advancements in understanding and synthesizing multimodal data,
+              propelling you to the forefront of AI research.
+              Your contributions to the field of AI have not gone unnoticed. Your work has paved the way for new technologies that revolutionize how AI systems perceive and interact with the world. You are hailed as a visionary in the field, leaving a lasting impact on the future of AI.
+            </p>
+            <div className="inner-container">
+              <button onClick={goHome}>Go back to home</button>
+              {/* Button to go back to home */}
+            </div>
+          </div>
+        );
+        case 1.1122: //research
+        return (
+          <div>
+            <h2 align="center">Ethical AI Journey</h2>
+            <p align="center" className="fs-5">
+              You've chosen to focus on Ethical AI for your next research direction. Your work in this field leads to the development of frameworks and guidelines that promote the responsible development and deployment of AI systems. Your research contributes to shaping the future of AI by ensuring it is developed and used in a way that aligns with ethical principles and societal values.
+              Your contributions to the field of AI and Ethical AI are recognized globally. You become a leading voice in the discussion surrounding AI ethics, advocating for transparency, fairness, and accountability in AI systems. Your research leaves a lasting impact, shaping the future of AI for the better.
+            </p>
+            <div className="inner-container">
+              <button onClick={goHome}>Go back to home</button>
+              {/* Button to go back to home */}
+            </div>
+          </div>
+        );
 
-
+      case 1.12: // research
+        return (
+          <div>
+            <h2 align="center">Graph Neural Networks</h2>
+            <p align="center" className="fs-5">
+              You've decided to explore Graph Neural Networks (GNNs) for your NLP research. This approach shows promise in handling complex language structures. As you delve deeper into your research, you encounter a new challenge:
+            </p>
+            <p align="center" className="fs-5">
+              Challenge 2: The dataset you're working with is sparse, making it challenging to train GNNs effectively. You have two options to address this:            </p>
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.121)}>
+                <p><strong>Data Augmentation -</strong>
+                  Generate synthetic data to supplement the sparse dataset.
+                </p>
+              </div>
+              <div className="box" onClick={() => handleDecision(1.122)}>
+                <p><strong>Transfer Learning -</strong>
+                  Use pre-trained models or knowledge from related tasks to enhance model performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+      case 1.121: // tech giants
+        return (
+          <div>
+            <h2 align="center">Data Augmentation</h2>
+            <p align="center" className="fs-5">
+              You've chosen to use data augmentation to address the issue of data sparsity in your NLP research. By generating synthetic data, you're able to supplement your dataset and improve the training of your Graph Neural Networks (GNNs). As your research progresses, you face another challenge:
+            </p>
+            <p align="center" className="fs-5">
+              Challenge 3: Model Interpretability
+              Your GNN models are performing well, but stakeholders require interpretability. You have two options:            </p>
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.1211)}>
+                <p><strong>Feature Visualization -</strong>
+                  Visualize the learned features of your model to gain insights into its inner workings.                </p>
+              </div>
+              <div className="box" onClick={() => handleDecision(1.1212)}>
+                <p><strong>Explainable AI -</strong>
+                  Use techniques such as attention mechanisms to explain the model's decisions.                </p>
+              </div>
+            </div>
+          </div>
+        );
+      case 1.1211: // tech giants
+        return (
+          <div>
+            <h2 align="center">Feature Visualization
+            </h2>
+            <p align="center" className="fs-5">
+              You've chosen to use feature visualization to gain insights into the inner workings of your Graph Neural Network (GNN) model. By visualizing the learned features, you hope to better understand how the model processes and represents language. As you delve into feature visualization, you make a groundbreaking discovery:
+            </p>
+            <p align="center" className="fs-5">
+              Discovery: Semantics Encoding
+              Through feature visualization, you discover that the GNN has learned to encode semantic relationships between words in a novel way, akin to how humans perceive meaning in language. This discovery opens up new possibilities for NLP research and garners attention from the academic community.
+            </p>
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.12111)}>
+                <p><strong>Feature Visualization -</strong>
+                  Visualize the learned features of your model to gain insights into its inner workings.                </p>
+              </div>
+            </div>
+          </div>
+        );
+          case 1.12111: // startup
+            return (
+              <div>
+                <h2 align="center">Academic Recognition</h2>
+                <p align="center" className="fs-5">
+                  Your research on semantics encoding in GNNs gains widespread recognition in the academic community. You're invited to present your findings at prestigious conferences and collaborate with leading researchers in the field.
+                  Congratulations, you've made a significant contribution to the field of Natural Language Processing! Your journey as a computer science researcher continues, filled with exciting new challenges and discoveries.
+                </p>
+                <div className="inner-container">
+                  <button onClick={goHome}>Go back to home</button>
+                  {/* Button to go back to home */}
+                </div>
+              </div>
+            );
+      case 1.1212: // tech giants
+        return (
+          <div>
+            <h2 align="center">Explainable AI
+            </h2>
+            <p align="center" className="fs-5">
+              You've decided to implement Explainable AI techniques to make your Graph Neural Networks (GNNs) more interpretable. By using attention mechanisms and other explainability techniques, you're able to provide insights into how your models make decisions. As your research project nears completion, you're faced with a final decision:
+            </p>
+            <p align="center" className="fs-5">
+              Final Challenge:
+              You have the option to focus your research on:
+            </p>
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.12121)}>
+                <p><strong>Applications -</strong>
+                  Apply your models to real-world problems, such as improving chatbots or information retrieval systems.
+                </p>
+              </div>
+              <div className="box" onClick={() => handleDecision(1.12122)}>
+                <p><strong>Theory -</strong>
+                  Dive deeper into the theoretical aspects of Graph Neural Networks, aiming to advance the understanding of their capabilities and limitations.
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+        case 1.12121: // startup
+          return (
+            <div>
+              <h2 align="center">Real-World Applications</h2>
+              <p align="center" className="fs-5">
+                You've chosen to focus your research on real-world applications of Graph Neural Networks (GNNs) in Natural Language Processing (NLP). Your work leads to advancements in chatbot technology, information retrieval systems, and
+                other practical NLP applications.
+              </p>
+              <p align="center" className="fs-5">
+                Conclusion: Research Impact
+                Your research has a significant impact on the field of NLP, improving the understanding and generation of language. Your work is recognized by the academic community and industry alike, leading to invitations to speak at conferences and collaborate on groundbreaking projects.
+              </p>
+              <div className="inner-container">
+                <button onClick={goHome}>Go back to home</button>
+                {/* Button to go back to home */}
+              </div>
+            </div>
+          );
+        case 1.12122: // startup
+        return (
+          <div>
+            <h2 align="center">Real-World Applications</h2>
+            <p align="center" className="fs-5">
+              You've chosen to focus your research on the theoretical aspects of Graph Neural Networks (GNNs). By advancing the understanding of GNN capabilities and limitations, you aim to contribute to the broader field of NLP. Your theoretical research leads to a breakthrough in understanding how GNNs can better model semantic relationships in language, leading to improved performance in various NLP tasks.
+            </p>
+            <p align="center" className="fs-5">
+              Conclusion: Research Impact
+              Your groundbreaking research on Graph Neural Networks revolutionizes the field of Natural Language Processing, paving the way for more interpretable and effective models. Your work is recognized worldwide, and you become a leading authority in the field, shaping the future of AI and NLP research.
+            </p>
+            <div className="inner-container">
+              <button onClick={goHome}>Go back to home</button>
+              {/* Button to go back to home */}
+            </div>
+          </div>
+        );
       //END case
       case end: // startup
         return (
