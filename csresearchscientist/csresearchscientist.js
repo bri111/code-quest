@@ -291,7 +291,7 @@ const DecisionPoints = () => {
                 </div>
               </div>
             );
-      case 1.1212: // tech giants
+        case 1.1212: // tech giants
         return (
           <div>
             <h2 align="center">Explainable AI
@@ -317,7 +317,7 @@ const DecisionPoints = () => {
             </div>
           </div>
         );
-        case 1.12121: // startup
+          case 1.12121: // startup
           return (
             <div>
               <h2 align="center">Real-World Applications</h2>
@@ -335,7 +335,7 @@ const DecisionPoints = () => {
               </div>
             </div>
           );
-        case 1.12122: // startup
+          case 1.12122: // startup
         return (
           <div>
             <h2 align="center">Real-World Applications</h2>
@@ -352,6 +352,172 @@ const DecisionPoints = () => {
             </div>
           </div>
         );
+
+      case 1.122: // tech giants
+        return (
+          <div>
+            <h2 align="center">Transfer Learning</h2>
+            <p align="center" className="fs-5">
+              You've chosen to apply transfer learning to address the data sparsity issue in your NLP research. By leveraging pre-trained models and knowledge from related tasks, you make significant progress in improving your model's performance. However, as you prepare to publish your research, you encounter a new obstacle:
+            </p>
+            <p align="center" className="fs-5">
+              Challenge 3: Your research lab values not just the performance of your model but also its interpretability. You must decide how to make your model more interpretable without sacrificing its performance:
+            </p>
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.1221)}>
+                <p><strong>Feature Visualization -</strong>
+                  Visualize the learned features of your model to enhance its interpretability.
+                </p>
+              </div>
+              <div className="box" onClick={() => handleDecision(1.1222)}>
+                <p><strong>Attention Mechanism -</strong>
+                  Highlight the important parts of the input text that contribute to the model's decision-making.
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+        case 1.1221: // startup
+        return (
+          <div>
+            <h2 align="center">
+              Feature Visualization
+            </h2>
+            <p align="center" className="fs-5">
+              You've decided to use feature visualization to make your NLP model more interpretable. By visualizing the learned features of your model, you provide insights into how it processes and understands language. Your research garners attention at conferences and earns you recognition in the NLP community.
+            </p>
+            <p align="center" className="fs-5">
+              The Impact
+              Your research on using Graph Neural Networks with transfer learning and feature visualization in Natural Language Processing sets new standards in the field. Your contributions lead to advancements in language understanding and generation, benefiting various applications such as chatbots, language translation, and sentiment analysis.            </p>
+            <div className="inner-container">
+              <button onClick={goHome}>Go back to home</button>
+              {/* Button to go back to home */}
+            </div>
+          </div>
+        );
+        case 1.1222: // tech giants
+          return (
+            <div>
+              <h2 align="center">
+                Attention Mechanism
+              </h2>
+              <p align="center" className="fs-5">
+                You've decided to leverage the attention mechanism to improve the interpretability of your NLP model. By highlighting the important parts of the input text that contribute to the model's decision-making, you not only enhance interpretability but also gain insights into how your model processes language. As you prepare to present your research findings, you face a final challenge:
+              </p>
+              <p align="center" className="fs-5">
+                Peer Review
+                Your research paper undergoes peer review, where experts in the field evaluate your work. You must address their feedback and suggestions to improve the quality and impact of your research:              </p>
+              <div className="inner-container">
+                <div className="box" onClick={() => handleDecision(1.12221)}>
+                  <p><strong>Address Reviewer Comments -</strong>
+                    Visualize the learned features of your model to enhance its interpretability.
+                  </p>
+                </div>
+                <div className="box" onClick={() => handleDecision(1.12222)}>
+                  <p><strong>Seek Collaboration -</strong>
+                    Highlight the important parts of the input text that contribute to the model's decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
+            case 1.12221: // startup
+              return (
+                <div>
+                  <h2 align="center">
+                    Research Impact
+                  </h2>
+                  <p align="center" className="fs-5">
+                    You've chosen to address the reviewer comments and revise your research paper accordingly. By incorporating their suggestions, you improve the quality and impact of your work. Your paper is accepted for publication in a top-tier conference, and your research garners attention from the academic community and industry professionals alike. Your work significantly advances the field of NLP and earns you recognition as a leading researcher in the field.
+                  </p>
+                  <div className="inner-container">
+                    <button onClick={goHome}>Go back to home</button>
+                    {/* Button to go back to home */}
+                  </div>
+                </div>
+              );
+            case 1.12222: // startup
+              return (
+                <div>
+                  <h2 align="center">
+                    Collaborative Validation
+                  </h2>
+                  <p align="center" className="fs-5">
+                    You've chosen to seek collaboration with other researchers to validate your findings and strengthen your arguments. By working with experts in the field, you receive valuable feedback and insights that enhance the credibility of your research. As a result, your paper is accepted for publication in a top-tier conference, and your work receives recognition in the academic community.
+                  </p>
+                  <div className="inner-container">
+                    <button onClick={goHome}>Go back to home</button>
+                    {/* Button to go back to home */}
+                  </div>
+                </div>
+              );
+
+
+    case 1.2: // tech giants
+        return (
+          <div>
+            <h2 align="center">Computer Vision Quest</h2>
+            <p align="center" className="fs-5">
+              You've chosen to focus on Computer Vision. Your first challenge is to decide on the specific area of computer vision to research:
+            </p>
+
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.22)}>
+                <p><strong>Object Detection -</strong>
+                  Develop algorithms to detect objects in images or videos.                </p>
+              </div>
+              <div className="box" onClick={() => handleDecision(1.1222)}>
+                <p><strong>Image Segmentation -</strong>
+                  Explore techniques to segment images into meaningful parts.                </p>
+              </div>
+            </div>
+          </div>
+        );
+      case 1.21: // tech giants
+        return (
+          <div>
+            <h2 align="center">Object Detection</h2>
+            <p align="center" className="fs-5">
+              Develop algorithms to detect objects in images or videos.
+            </p>
+
+            <div className="inner-container">
+              <div className="box" onClick={() => handleDecision(1.211)}>
+                <p><strong>Algorithm Design -</strong>
+                  Focus on developing a new algorithm for object detection, which could lead to groundbreaking results but requires significant time and effort.
+                </p>
+                </div>
+              <div className="box" onClick={() => handleDecision(1.212)}>
+                <p><strong>Application Development -</strong>
+                  Work on applying existing object detection algorithms to a specific real-world problem, which could have more immediate practical impact but may not be as novel.                </p>
+              </div>
+            </div>
+          </div>
+        );
+        case 1.211: // tech giants
+          return (
+            <div>
+              <h2 align="center">Algorithm Innovation</h2>
+              <p align="center" className="fs-5">
+                You've decided to focus on algorithm design for object detection. As you delve deeper into your research, you face a key challenge:
+              </p>
+              <p align="center" className="fs-5">
+                Single-Stage vs. Two-Stage: Decide whether to focus on single-stage detectors, which are faster but less accurate, or two-stage detectors, which are more accurate but slower.
+              </p>
+
+              <div className="inner-container">
+                <div className="box" onClick={() => handleDecision(1.2111)}>
+                  <p><strong>Single-Stage Detectors</strong>
+                  </p>
+                </div>
+                <div className="box" onClick={() => handleDecision(1.2122)}>
+                  <p><strong>Two-Stage Detectors</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
+
       //END case
       case end: // startup
         return (
