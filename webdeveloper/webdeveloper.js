@@ -15,7 +15,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Career as a Web Developer</h2>
-            <p align="center" className="fs-5">Choose your next step in your web development career, incorporating elements of Hawaii and its culture.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your next step in your web development career, incorporating elements of Hawaii and its culture.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(1)}>
                 <p><strong>Frontend Development - </strong>
@@ -34,7 +34,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Frontend Development</h2>
-            <p align="center" className="fs-5">Choose a specialization within frontend development.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specialization within frontend development.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(3)}>
                 <p><strong>React - </strong>
@@ -53,7 +53,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Backend Development</h2>
-            <p align="center" className="fs-5">Choose a backend technology to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a backend technology to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(5)}>
                 <p><strong>Node.js - </strong>
@@ -72,7 +72,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">React</h2>
-            <p align="center" className="fs-5">Choose a specific area of React development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of React development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(7)}>
                 <p><strong>State Management - </strong>
@@ -91,7 +91,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Vue</h2>
-            <p align="center" className="fs-5">Choose a specific area of Vue development to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Vue development to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(9)}>
                 <p><strong>Vuex - </strong>
@@ -110,7 +110,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Node.js</h2>
-            <p align="center" className="fs-5">Choose a specific area of Node.js development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Node.js development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(11)}>
                 <p><strong>API Development - </strong>
@@ -129,7 +129,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Python/Django</h2>
-            <p align="center" className="fs-5">Choose a specific area of Python/Django development to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Python/Django development to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(13)}>
                 <p><strong>Web Applications - </strong>
@@ -148,7 +148,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">State Management</h2>
-            <p align="center" className="fs-5">Choose a state management library to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a state management library to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(15)}>
                 <p><strong>Redux - </strong>
@@ -167,7 +167,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Component Libraries</h2>
-            <p align="center" className="fs-5">Choose a component library to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a component library to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(17)}>
                 <p><strong>Material-UI - </strong>
@@ -186,7 +186,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Vuex</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of Vuex to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of Vuex to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(19)}>
                 <p><strong>State Management - </strong>
@@ -205,7 +205,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Nuxt.js</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of Nuxt.js to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of Nuxt.js to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(21)}>
                 <p><strong>SSR - </strong>
@@ -224,7 +224,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">API Development</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of API development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of API development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(23)}>
                 <p><strong>REST - </strong>
@@ -243,7 +243,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Microservices</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of microservices to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of microservices to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(25)}>
                 <p><strong>Service Communication - </strong>
@@ -262,7 +262,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Web Applications</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of web application development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of web application development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(27)}>
                 <p><strong>Authentication - </strong>
@@ -281,7 +281,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Data Analysis</h2>
-            <p align="center" className="fs-5">Choose a specific area of data analysis to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of data analysis to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(29)}>
                 <p><strong>Data Visualization - </strong>
@@ -300,7 +300,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Redux</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to specialize in state management with Redux. Your expertise allows you to build highly efficient and maintainable React applications.
               Congratulations! Your skills in managing application state are highly valued, leading to better job opportunities and professional growth.
             </p>
@@ -313,7 +313,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Context API</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to master state management using React's Context API. Your ability to handle application state effectively enhances the performance and user experience of your applications.
               Congratulations! Your knowledge of Context API makes you a sought-after developer in the industry.
             </p>
@@ -326,7 +326,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Material-UI</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to specialize in Material-UI. Your applications now have a sleek, modern look that appeals to users.
               Congratulations! Your design skills with Material-UI are recognized, and you land exciting projects that showcase your talents.
             </p>
@@ -339,7 +339,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Ant Design</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use Ant Design for your projects. Your ability to build robust and flexible components sets you apart in the field.
               Congratulations! Your proficiency with Ant Design earns you a reputation as a top-notch developer.
             </p>
@@ -352,7 +352,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">State Management</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to master state management with Vuex. Your applications are now highly efficient and scalable.
               Congratulations! Your expertise in Vuex state management makes you a valuable asset to any development team.
             </p>
@@ -365,7 +365,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Modules</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use Vuex modules to organize your store. Your structured approach to state management has improved the maintainability of your projects.
               Congratulations! Your skills in using Vuex modules are highly valued in the industry.
             </p>
@@ -378,7 +378,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Server-Side Rendering (SSR)</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use Server-Side Rendering (SSR) with Nuxt.js. Your applications now perform better and provide a smoother user experience.
               Congratulations! Your expertise in SSR is highly valued, leading to better performance and SEO for your projects.
             </p>
@@ -391,7 +391,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Static Site Generation</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to generate static sites with Nuxt.js. Your applications are now faster and more secure, providing an excellent user experience.
               Congratulations! Your skills in static site generation have improved the performance and SEO of your projects.
             </p>
@@ -404,7 +404,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">REST</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to create RESTful APIs with Node.js. Your APIs are now highly efficient and easy to maintain.
               Congratulations! Your expertise in REST has made your applications more robust and scalable.
             </p>
@@ -417,7 +417,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">GraphQL</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use GraphQL to build flexible and efficient APIs. Your ability to handle complex data requirements has improved the performance of your applications.
               Congratulations! Your skills in GraphQL have made you a sought-after developer in the industry.
             </p>
@@ -430,7 +430,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Service Communication</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to ensure efficient communication between microservices. Your applications are now more reliable and scalable.
               Congratulations! Your expertise in microservices communication has enhanced the performance of your projects.
             </p>
@@ -443,7 +443,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Scalability</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to design microservices for scalability and performance. Your applications can now handle higher loads and provide a better user experience.
               Congratulations! Your skills in scalability have made your applications more efficient and robust.
             </p>
@@ -456,7 +456,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Authentication</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to implement secure user authentication systems. Your applications are now more secure, protecting user data effectively.
               Congratulations! Your expertise in authentication has made your applications more reliable and trustworthy.
             </p>
@@ -469,7 +469,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Performance Optimization</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to optimize web application performance. Your applications now load faster and provide a smoother user experience.
               Congratulations! Your skills in performance optimization have enhanced the user satisfaction and efficiency of your projects.
             </p>
@@ -482,7 +482,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Data Visualization</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use Django to create interactive data visualizations. Your applications now provide insightful and engaging data presentations.
               Congratulations! Your expertise in data visualization has made your projects more informative and user-friendly.
             </p>
@@ -495,7 +495,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Data Processing</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to process and analyze large datasets efficiently. Your applications now handle data more effectively, providing better insights.
               Congratulations! Your skills in data processing have improved the performance and reliability of your projects.
             </p>

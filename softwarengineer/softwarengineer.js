@@ -31,9 +31,9 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Welcome to Tech Giants</h2>
-            <p align="center" className="fs-5">You've joined Tech Giants Inc. and are settling into your new role. Your team is working on a major update to the mobile app, and you're assigned a challenging task:
+            <p align="center" className="fs-5 flex-paragraph">You've joined Tech Giants Inc. and are settling into your new role. Your team is working on a major update to the mobile app, and you're assigned a challenging task:
             </p>
-            <p align="center" className="fs-5">Task: Implement a new feature that allows users to customize their app experience with themes and colors.
+            <p align="center" className="fs-5 flex-paragraph">Task: Implement a new feature that allows users to customize their app experience with themes and colors.
             </p>
 
             <div className="inner-container">
@@ -54,8 +54,8 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">The Feature Rollout</h2>
-            <p align="center" className="fs-5">You decide to follow the existing code structure to implement the new feature. It's a challenging task, but you manage to complete it on time and without major issues. As a result, you're given the opportunity to lead a small team on a new project. </p>
-            <p align="center" className="fs-5">Task: Choose the technology stack for the web app.</p>
+            <p align="center" className="fs-5 flex-paragraph">You decide to follow the existing code structure to implement the new feature. It's a challenging task, but you manage to complete it on time and without major issues. As a result, you're given the opportunity to lead a small team on a new project. </p>
+            <p align="center" className="fs-5 flex-paragraph">Task: Choose the technology stack for the web app.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(1.21)}>
                 <p><strong>React.js with Node.js and MongoDB - </strong>

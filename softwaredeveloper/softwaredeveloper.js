@@ -15,7 +15,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Career as a Software Developer</h2>
-            <p align="center" className="fs-5">Choose your next step in your software development career.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your next step in your software development career.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(1)}>
                 <p><strong>Web Development - </strong>
@@ -34,7 +34,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Web Development</h2>
-            <p align="center" className="fs-5">Choose a specialization within web development.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specialization within web development.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(3)}>
                 <p><strong>Frontend Development - </strong>
@@ -53,7 +53,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Mobile Development</h2>
-            <p align="center" className="fs-5">Choose a platform to develop for.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a platform to develop for.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(5)}>
                 <p><strong>iOS Development - </strong>
@@ -72,7 +72,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Frontend Development</h2>
-            <p align="center" className="fs-5">Choose a technology to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a technology to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(7)}>
                 <p><strong>React - </strong>
@@ -91,7 +91,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Backend Development</h2>
-            <p align="center" className="fs-5">Choose a backend technology to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a backend technology to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(9)}>
                 <p><strong>Node.js - </strong>
@@ -110,7 +110,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">iOS Development</h2>
-            <p align="center" className="fs-5">Choose a specific area of iOS development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of iOS development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(11)}>
                 <p><strong>UI/UX Design - </strong>
@@ -129,7 +129,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Android Development</h2>
-            <p align="center" className="fs-5">Choose a specific area of Android development to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Android development to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(13)}>
                 <p><strong>Kotlin - </strong>
@@ -148,7 +148,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">React</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of React development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of React development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(15)}>
                 <p><strong>State Management - </strong>
@@ -167,7 +167,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Angular</h2>
-            <p align="center" className="fs-5">Choose a specific area of Angular development to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Angular development to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(17)}>
                 <p><strong>Reactive Forms - </strong>
@@ -186,7 +186,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Node.js</h2>
-            <p align="center" className="fs-5">Choose a specific area of Node.js development to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Node.js development to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(19)}>
                 <p><strong>API Development - </strong>
@@ -205,7 +205,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Python</h2>
-            <p align="center" className="fs-5">Choose a specific area of Python development to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of Python development to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(21)}>
                 <p><strong>Django - </strong>
@@ -224,7 +224,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">State Management</h2>
-            <p align="center" className="fs-5">Choose a state management library to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a state management library to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(23)}>
                 <p><strong>Redux - </strong>
@@ -243,7 +243,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Component Libraries</h2>
-            <p align="center" className="fs-5">Choose a component library to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a component library to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(25)}>
                 <p><strong>Material-UI - </strong>
@@ -262,7 +262,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Reactive Forms</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of reactive forms to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of reactive forms to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(27)}>
                 <p><strong>Form Validation - </strong>
@@ -281,7 +281,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">NgRx</h2>
-            <p align="center" className="fs-5">Choose a specific area of NgRx to specialize in.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of NgRx to specialize in.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(29)}>
                 <p><strong>State Management - </strong>
@@ -300,7 +300,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Redux</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to specialize in state management with Redux. Your expertise allows you to build highly efficient and maintainable React applications.
               Congratulations! Your skills in managing application state are highly valued, leading to better job opportunities and professional growth.
             </p>
@@ -313,7 +313,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Context API</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to master state management using React's Context API. Your ability to handle application state effectively enhances the performance and user experience of your applications.
               Congratulations! Your knowledge of Context API makes you a sought-after developer in the industry.
             </p>
@@ -326,7 +326,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Material-UI</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to specialize in Material-UI. Your applications now have a sleek, modern look that appeals to users.
               Congratulations! Your design skills with Material-UI are recognized, and you land exciting projects that showcase your talents.
             </p>
@@ -339,7 +339,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Ant Design</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use Ant Design for your projects. Your ability to build robust and flexible components sets you apart in the field.
               Congratulations! Your proficiency with Ant Design earns you a reputation as a top-notch developer.
             </p>
@@ -352,7 +352,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Form Validation</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to focus on form validation. Your applications are now highly reliable, with fewer errors and better user input handling.
               Congratulations! Your expertise in form validation makes your applications stand out for their robustness.
             </p>
@@ -365,7 +365,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Dynamic Forms</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to create dynamic forms. Your applications are now more interactive and responsive to user input.
               Congratulations! Your skill in building dynamic forms is highly appreciated, leading to more engaging user experiences.
             </p>
@@ -378,7 +378,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">NgRx State Management</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to master state management with NgRx. Your applications are now highly efficient and scalable.
               Congratulations! Your expertise in NgRx state management makes you a valuable asset to any development team.
             </p>
@@ -391,7 +391,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">NgRx Effects</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to handle side effects with NgRx Effects. Your applications are now more reliable and easier to maintain.
               Congratulations! Your knowledge of NgRx Effects enhances your ability to build complex applications with ease.
             </p>

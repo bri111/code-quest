@@ -2,6 +2,7 @@
   background-color: #123e66; /* Choose your desired color */
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 
@@ -11,68 +12,45 @@ footer {
 }
 
 .top-text {
-  color: #f50000; /* Optional: Choose a text color that contrasts well with the background */
-
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-h2 {
-  color: #f6f6f6; /* Optional: Choose a text color that contrasts well with the background */
-  align-content: center;
-}
-
-p {
-  margin-top: auto; /* Push the paragraph to the center */
-  margin-bottom: auto; /* Push the paragraph to the center */
-  align-content: center;
-  color: #f1f1f1; /* Optional: Choose a text color that contrasts well with the background */
-}
-
-#root {
-  padding-top: 60px; /* Adjust this value to match the height of your navbar */
   display: flex;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  height: 100vh;
-  margin-top: 100px; /* Adjust the top margin to be the height of your navbar */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.box:hover {
-  background-color: #8ab776;
-
-  color: white;
-}
-
-
-/*This is for the boxes*/
-.inner-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the flex-start position */
-  height: 100vh;
-  margin-top: 50px; /* Adjust the top ma*/
-}
-
-.box {
-  width: 350px;
-  height: auto;
-  background-color: #39532a;
-
-  border: 2px solid #182e07;
-  border-radius: 10px;
+.flex-paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: center; /* Center text horizontally */
+  width: 100%;
 }
 
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  background-color: #946532;
+  color: white;
+
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
 .box:hover {
-  background-color: #182e07;
+  background-color: #f5bdc3;
   color: white;
 }
-
-

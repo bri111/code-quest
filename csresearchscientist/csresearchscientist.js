@@ -15,7 +15,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Computer Science Researcher</h2>
-            <p align="center" className="fs-5">Choose your next job as a CS researcher. Take a step into a day in the life of a researcher!</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your next job as a CS researcher. Take a step into a day in the life of a researcher!</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(1)}>
                 <p><strong>University Research Lab - </strong>
@@ -34,7 +34,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">University Research Lab</h2>
-            <p align="center" className="fs-5">Choose your research project in the university lab.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your research project in the university lab.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(3)}>
                 <p><strong>Natural Language Processing - </strong>
@@ -53,7 +53,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Industry Research Center</h2>
-            <p align="center" className="fs-5">Choose your research focus in the industry lab.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your research focus in the industry lab.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(5)}>
                 <p><strong>Cybersecurity - </strong>
@@ -72,7 +72,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Natural Language Processing</h2>
-            <p align="center" className="fs-5">Choose a specific application of NLP to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific application of NLP to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(7)}>
                 <p><strong>Chatbots - </strong>
@@ -91,7 +91,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Computer Vision</h2>
-            <p align="center" className="fs-5">Choose a specific area of computer vision to research.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific area of computer vision to research.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(9)}>
                 <p><strong>Object Detection - </strong>
@@ -110,7 +110,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Cybersecurity</h2>
-            <p align="center" className="fs-5">Choose a specific cybersecurity focus.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific cybersecurity focus.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(11)}>
                 <p><strong>Network Security - </strong>
@@ -129,7 +129,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Data Privacy</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of data privacy to research.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of data privacy to research.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(13)}>
                 <p><strong>Privacy Preserving Algorithms - </strong>
@@ -148,7 +148,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Chatbots</h2>
-            <p align="center" className="fs-5">Choose an industry to apply your chatbot technology.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose an industry to apply your chatbot technology.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(15)}>
                 <p><strong>Healthcare - </strong>
@@ -167,7 +167,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Sentiment Analysis</h2>
-            <p align="center" className="fs-5">Choose a platform to focus your sentiment analysis on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a platform to focus your sentiment analysis on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(17)}>
                 <p><strong>Twitter - </strong>
@@ -186,7 +186,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Object Detection</h2>
-            <p align="center" className="fs-5">Choose your approach to object detection.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose your approach to object detection.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(19)}>
                 <p><strong>Algorithm Design - </strong>
@@ -205,7 +205,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Image Segmentation</h2>
-            <p align="center" className="fs-5">Choose a specific application for image segmentation.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific application for image segmentation.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(21)}>
                 <p><strong>Medical Imaging - </strong>
@@ -224,7 +224,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Network Security</h2>
-            <p align="center" className="fs-5">Choose a specific network security challenge to address.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific network security challenge to address.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(23)}>
                 <p><strong>Intrusion Detection - </strong>
@@ -243,7 +243,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Application Security</h2>
-            <p align="center" className="fs-5">Choose a specific aspect of application security to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific aspect of application security to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(25)}>
                 <p><strong>Vulnerability Assessment - </strong>
@@ -262,7 +262,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Privacy Preserving Algorithms</h2>
-            <p align="center" className="fs-5">Choose a specific type of privacy-preserving algorithm to develop.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific type of privacy-preserving algorithm to develop.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(27)}>
                 <p><strong>Federated Learning - </strong>
@@ -281,7 +281,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Regulatory Compliance</h2>
-            <p align="center" className="fs-5">Choose a specific regulatory framework to focus on.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific regulatory framework to focus on.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(29)}>
                 <p><strong>GDPR - </strong>
@@ -300,7 +300,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Algorithm Design</h2>
-            <p align="center" className="fs-5">Choose a real-world problem to apply your new algorithm.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a real-world problem to apply your new algorithm.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(31)}>
                 <p><strong>Wildlife Conservation - </strong>
@@ -319,7 +319,7 @@ const DecisionPoints = () => {
         return (
           <div className="top-text">
             <h2 align="center">Application Development</h2>
-            <p align="center" className="fs-5">Choose a specific application to develop.</p>
+            <p align="center" className="fs-5 flex-paragraph">Choose a specific application to develop.</p>
             <div className="inner-container">
               <div className="box" onClick={() => handleDecision(33)}>
                 <p><strong>Healthcare - </strong>
@@ -338,7 +338,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Wildlife Conservation</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to use your object detection algorithm to monitor endangered species, particularly Hawaiian monk seals. Your efforts lead to significant improvements in tracking and protecting these animals, contributing to their conservation and increasing awareness about their plight.
               Congratulations! Your work is recognized by the scientific community and makes a real difference in wildlife conservation.
             </p>
@@ -351,7 +351,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Autonomous Vehicles</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to apply your object detection algorithm to autonomous vehicles. Your work improves the safety and reliability of self-driving cars, reducing accidents and enhancing the overall performance of autonomous systems.
               Congratulations! Your contributions are celebrated in the tech industry, and you help pave the way for safer, more efficient transportation.
             </p>
@@ -364,7 +364,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Healthcare</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to develop computer vision applications for healthcare. Your work assists in medical imaging and diagnostics, leading to early detection of diseases and improved patient outcomes.
               Congratulations! Your research has a profound impact on the medical field, saving lives and advancing healthcare technology.
             </p>
@@ -377,7 +377,7 @@ const DecisionPoints = () => {
         return (
           <div>
             <h2 align="center">Retail</h2>
-            <p align="center" className="fs-5">
+            <p align="center" className="fs-5 flex-paragraph">
               You've chosen to develop computer vision applications for the retail industry. Your innovations enhance customer experiences, streamline operations, and boost sales.
               Congratulations! Your work is highly valued in the retail sector, leading to widespread adoption of your technology and transforming the shopping experience.
             </p>
@@ -386,7 +386,7 @@ const DecisionPoints = () => {
             </div>
           </div>
         );
-        default:
+      default:
         return <div>You've reached the end of The Code Quest!
           <div className="inner-container">
             <button onClick={goHome}>Go back to home</button>
@@ -395,6 +395,7 @@ const DecisionPoints = () => {
         </div>;
     }
   };
+
 
   return (
     <div>

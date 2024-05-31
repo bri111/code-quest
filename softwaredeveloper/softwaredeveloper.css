@@ -1,8 +1,56 @@
 .body {
   background-color: #123e66; /* Choose your desired color */
+  margin: 0;
+  padding: 0;
+  color: white;
 }
+
 
 footer {
   background-color: #123e66; /* Choose your desired color */
   color: #e6d2d2; /* Optional: Choose a text color that contrasts well with the background */
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  background-color: #83424e;
+  color: white;
+
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+.box:hover {
+  background-color: #8a8ec9;
+  color: white;
 }
