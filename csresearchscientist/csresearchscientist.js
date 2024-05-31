@@ -5,6 +5,7 @@ const DecisionPoints = () => {
     setStep(nextStep);
   };
 
+  
   const goHome = () => {
     window.location.href = '../index.html'; // Redirect to the home page
   };
@@ -382,6 +383,8 @@ const DecisionPoints = () => {
               Congratulations! Your work is highly valued in the retail sector, leading to widespread adoption of your technology and transforming the shopping experience.
             </p>
             <div className="inner-container">
+              <button onClick={displaySummary}>See Summary</button>
+
               <button onClick={goHome}>Go back to home</button>
             </div>
           </div>
